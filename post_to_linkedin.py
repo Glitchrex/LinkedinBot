@@ -125,6 +125,10 @@ with sync_playwright() as p:
     mark_posted(post_hash)
     print(f"📝 Hash recorded in posted.log: {post_hash}")
 
+    # Delete the posted file
+    latest_post.unlink()
+    print(f"🗑️ Deleted posted file: {latest_post}")
+
     time.sleep(15)
     browser.close()
 

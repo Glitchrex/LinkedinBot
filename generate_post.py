@@ -4,9 +4,6 @@ import hashlib
 from datetime import datetime
 from openai import OpenAI
 
-# Use a single, reusable user directory. Can be overridden with USER_DIR env var.
-USER_DIR = os.getenv("USER_DIR", "user")
-
 client = OpenAI(
     api_key=os.getenv("GITHUB_TOKEN"),
     base_url="https://models.inference.ai.azure.com"
@@ -30,7 +27,7 @@ def generate_post(prompt, context):
     return response.choices[0].message.content.strip()
 
 def main():
-    base = USER_DIR
+    base = f"user"
     prompt = read_file(f"{base}/prompt.txt")
     context = read_file(f"{base}/context.txt")
 
@@ -47,7 +44,7 @@ def main():
     with open(path, "w", encoding="utf-8") as f:
         f.write(post)
 
-    print(f"✅ Post generated: {path} (hash: {post_hash})")
+    print(f"✅ Post generated : {path} (hash: {post_hash})")
 
 if __name__ == "__main__":
     main()
