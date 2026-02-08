@@ -118,6 +118,7 @@ with sync_playwright() as p:
     print("➡️ Publishing post...")
     page.get_by_text("Post", exact=True).click(timeout=30000, force=True)
     print("✅ Post published successfully")
+    page.wait_for_timeout(10000) # Wait for post to be submitted and page to update
     
     # Mark post as published
     mark_posted(post_hash)
