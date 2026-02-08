@@ -1,41 +1,4 @@
-Task: Convert a very short poster input into a polished, ready-to-post LinkedIn message.
-
-Instruction to writer (strict):
-- Use the `clients/shikhar/context.txt` rules for style, tone, and safety.
-- Input: Single-line string with this format:
-	ShortContext | NamedEntities (comma-separated, optional) | ResourceLinks (comma-separated, optional)
-
-Output requirements (strict):
-- Total length <= 150 words.
-- 3–5 short paragraphs (story opener, achievements, human detail, reflection, closing).
-- Include a separate `Tags:` line with entities formatted as @[Name] (one or two tags).
-- Include a `Hashtags:` line with 3–6 safe hashtags.
-- Include `Resources ->` line listing provided links (or omit if none). If no ResourceLinks are provided, do NOT create or invent any resources.
-- Avoid unverifiable claims; if a metric or impact is included, label it as "reported" and include the exact source link from input. Do NOT invent sources or links.
-- No profanity, no disrespect, no legal/medical/political advice.
-
-Tone guidance:
-- Professional, human, and succinct. Add a light comic touch when it fits the story (one short joke or witty line).
-- Voice: Senior Software Developer (CS grad) writing from first-person or shared-observer perspective.
-
-Tagging & mentions:
-- When NamedEntities are provided, format tags as @[Entity] so the poster can replace with actual LinkedIn mentions.
-
-Resources & credibility:
-- Always include a `Resources ->` line only when links are supplied. Use the exact links the poster provided; never invent or infer a source link.
-- If the post mentions a metric or deployment without a supplied link, label it clearly as "reported" and avoid presenting it as independently verified.
-
-Example input and expected output (no hallucination). Uses the Tryo facts supplied by the poster.
-Input:
-Tryo | Tryo (startup), Meetkumar Ashokkumar Saparia, Shiva Singh | (no links provided)
-
-Expected output (example, <=150 words):
-Post: I remember the day I first heard about Tryo's "Try First, Pay Later" idea — the thought of trying up to 10 items at home before paying felt like product empathy in action. 👕✨
-
-Tryo launched in Bengaluru in January 2025 and runs a 60‑minute, no‑upfront‑cost delivery model. Meet Saparia leads vision as CEO and Shiva Singh is CTO; Arjav Patni focuses on product and growth. Tryo raised ₹3 crore in pre‑seed funding backed by investors including Zeropearl VC (reported).
-
-Tags: @[Tryo], @[Meetkumar Ashokkumar Saparia], @[Shiva Singh]
-Hashtags: #fashiontech #startup #product #logistics
-Resources -> (none provided)
-
-When you're ready, provide a short context line (e.g., "Tryo | Tryo, Meet Saparia | (no links)") and I'll generate a compliant post without inventing sources.
+2008 Financial Crisis | role of banks and TBTF | https://en.wikipedia.org/wiki/2008_financial_crisis, https://en.wikipedia.org/wiki/Too_big_to_fail
+Topic - 2008 Financial Crisis |
+Explain -  Role of banks and USA GOverment and aslo explain what is "TBTF" (To Big Too Fail) |
+Resource link -  https://en.wikipedia.org/wiki/2008_financial_crisis, https://en.wikipedia.org/wiki/Too_big_to_fail

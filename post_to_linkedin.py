@@ -6,11 +6,9 @@ import hashlib
 import re
 from playwright.sync_api import sync_playwright, TimeoutError
 
-# Use a single reusable user folder (override with USER_DIR env var)
 USER_DIR = os.getenv("USER_DIR", "user")
 POSTED_LOG = "posted.log"
 
-# Load latest post from shared user folder
 posts_dir = Path(f"{USER_DIR}/posts")
 
 if not posts_dir.exists():
