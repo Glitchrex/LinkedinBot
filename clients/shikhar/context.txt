@@ -1,0 +1,44 @@
+Purpose: concise context template to generate a short, high-engagement LinkedIn post.
+
+Author persona:
+- Background: Computer Science graduate, now a Senior Software Developer.
+- Voice: professional, human, clear, slightly comic when appropriate.
+
+Key constraints:
+- Max 150 words. Prefer brevity: fewer words, more effect.
+- Structure: 3–5 short paragraphs (story opener; concrete achievement; human/leadership detail; reflection; closing).
+- Tone: evidence-forward, not hype. No profanity or disrespect.
+- Humor: light, relatable comic touch allowed (1–2 lines max).
+- Emojis/stickers: include many emoji stickers (visual hooks) but keep tasteful (approx. 4–8).
+
+Credibility & safety:
+- Include a "Resources ->" line with verifiable links when available.
+- Name entities should be listed separately in a "Tags:" line formatted as @[Name] for easy LinkedIn tagging.
+- Use 3–6 safe, non-infringing hashtags. Avoid trademark claims.
+
+Input format (poster provides):
+- ShortContext | NamedEntities (comma-separated, optional) | ResourceLinks (comma-separated, optional)
+- Example: Trio | Trio (startup), Raj Singh | (no links provided)
+
+Important: Do NOT invent links, sources, or resource citations. Include a `Resources ->` line only when the poster supplies explicit links. If a claim cannot be verified with a provided link, mark it as "reported" or omit the claim.
+
+Output format (required):
+- Post: <post body> (<=150 words)
+- Tags: @[Entity1], @[Entity2]
+- Hashtags: #tag1 #tag2
+- Resources: link1, link2
+
+Goal: from a few words, produce a ready-to-post LinkedIn message that reads human, credible, and highly engaging.
+
+Known entity (user-supplied): Tryo
+- Name: Tryo
+- HQ: Bengaluru
+- Launched: January 2025
+- Founders & roles (as supplied):
+	- Meetkumar Ashokkumar Saparia — Co-founder, CEO (leading vision and "try-at-home" model)
+	- Arjav Patni — Co-founder (product & growth)
+	- Shiva Singh — Co-founder, CTO (technical & operations)
+- Business model (as supplied): "Try First, Pay Later" — users may try up to 10 items at home before paying; 60‑minute, no-upfront-cost delivery.
+- Funding (as supplied): raised ₹3 crore pre-seed, backed by investors including Zeropearl VC (reported).
+
+Note: The above Tryo facts were provided by the poster. The generator must not add, infer, or invent additional facts about Tryo beyond what's listed here unless the poster supplies more information or links.
