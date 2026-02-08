@@ -1,6 +1,5 @@
 import os
 import sys
-import hashlib
 from datetime import datetime
 from openai import OpenAI
 
@@ -38,14 +37,13 @@ def main():
     posts_dir = f"{base}/posts"
     os.makedirs(posts_dir, exist_ok=True)
 
-    post_hash = hashlib.sha256(post.encode("utf-8")).hexdigest()
-    filename = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}-{post_hash}.txt"
+    filename = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.txt"
     path = f"{posts_dir}/{filename}"
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(post)
 
-    print(f"✅ Post generated: {path} (hash: {post_hash})")
+    print(f"✅ Post generated: {path}")
 
 if __name__ == "__main__":
     main()
