@@ -1,4 +1,5 @@
-2008 Financial Crisis | role of banks and TBTF | https://en.wikipedia.org/wiki/2008_financial_crisis, https://en.wikipedia.org/wiki/Too_big_to_fail
-Topic - 2008 Financial Crisis |
-Explain -  Role of banks and USA GOverment and aslo explain what is "TBTF" (To Big Too Fail) |
-Resource link -  https://en.wikipedia.org/wiki/2008_financial_crisis, https://en.wikipedia.org/wiki/Too_big_to_fail
+LinkedinBot - AI-Powered LinkedIn Automation | Automate your LinkedIn posts with AI | https://github.com/Glitchrex/LinkedinBot
+Topic - LinkedinBot: An Open-Source Tool for LinkedIn Automation |
+Explain - LinkedinBot is a powerful Python tool that leverages AI (OpenAI) and browser automation (Playwright) to generate and publish engaging LinkedIn posts automatically. Explain how it saves time, enables consistent posting, supports multi-client management, and allows customization of post tone/style based on prompt and context files. Highlight the importance of maintaining a consistent LinkedIn presence for career growth and personal branding. Emphasize the security features (session persistence, one-time login) and ease of setup. |
+Resource link - https://github.com/Glitchrex/LinkedinBot |
+Call to Action - Include a direct ask for engagement: "Have you tried automating your LinkedIn posts? Check out the repo, ⭐ star it if you find it useful, and share your feedback. Let's build the best LinkedIn automation tool together! 🚀"
