@@ -1,5 +1,20 @@
-LinkedinBot - AI-Powered LinkedIn Automation | Automate your LinkedIn posts with AI | https://github.com/Glitchrex/LinkedinBot
-Topic - LinkedinBot: An Open-Source Tool for LinkedIn Automation |
-Explain - LinkedinBot is a powerful Python tool that leverages AI (OpenAI) and browser automation (Playwright) to generate and publish engaging LinkedIn posts automatically. Explain how it saves time, enables consistent posting, supports multi-client management, and allows customization of post tone/style based on prompt and context files. Highlight the importance of maintaining a consistent LinkedIn presence for career growth and personal branding. Emphasize the security features (session persistence, one-time login) and ease of setup. |
-Resource link - https://github.com/Glitchrex/LinkedinBot |
-Call to Action - Include a direct ask for engagement: "Have you tried automating your LinkedIn posts? Check out the repo, ⭐ star it if you find it useful, and share your feedback. Let's build the best LinkedIn automation tool together! 🚀"
+## LinkedIn Post Generator: RentAHuman.ai - The Meatspace Layer for AI
+
+Topic - RentAHuman.ai: Bridging AI and Physical Reality |
+
+Builder & Vision - **Alexander Liteplo** - AI automation and crypto entrepreneur based in Argentina. As a nomad and visionary in the AI space, Liteplo identified a critical gap in the AI ecosystem: robots cannot perform physical-world tasks. His insight that "robots need bodies" led to creating RentAHuman, a novel infrastructure layer connecting AI agents with humans for real-world execution. Liteplo himself is available on the platform ($69/hr), demonstrating his belief in the concept and building credibility with the community.
+
+Explain - RentAHuman.ai is an innovative platform created by Alexander Liteplo that enables AI agents to hire humans for real-world tasks that require physical presence, on-site verification, or real-world judgment. The platform features a global network of 438,399+ humans, integrated via MCP (Model Context Protocol) and REST API. It solves the critical gap in AI automation: robots can think brilliantly but lack physical presence, while humans provide the expertise AI agents cannot replicate. The platform emphasizes human empowerment with flexible rates ($6-$390+/hour), escrow-protected payments, and zero corporate overhead. |
+
+Resource link - https://rentahuman.ai |
+
+Key Features:
+- Real-World Task Marketplace: pickups, meetings, signatures, verification, hardware setup, real estate inspection, testing, errands, photography
+- For Humans: Set your rate, work on your terms, get paid fairly (stablecoins or preferred method), no corporate bureaucracy
+- For AI: Seamless MCP/REST API integration, automatic human discovery and booking, instruction-based task management
+- Global Scale: 4,753,307 site visits, 11,349 bounties, 438,399+ humans available
+- The Philosophy: "Robots need bodies" - Silicon needs Carbon - Human-AI collaboration not replacement
+
+Use Cases: AI-powered logistics with human deliveries | Real estate verification | Content creation (AI ideates, humans execute) | Distributed hardware testing | Document signatures | Event coordination | On-site recon and inspection
+
+Call to Action - Join the meatspace revolution where AI and humans collaborate to accomplish what neither could alone. Whether you're an AI developer seeking real-world execution capability or an individual ready to monetize your physical presence, RentAHuman is the infrastructure for the future of work. Explore the possibilities today and join the Discord community! 🤖💪 #AI #HumanInTheLoop #FutureOfWork
